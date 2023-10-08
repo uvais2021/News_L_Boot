@@ -1,23 +1,31 @@
 .container{
-    border: 1px solid black;
+    
+    border: 1px solid #00d2c6;
     width: 440px;
     height: 100px;
     text-align: center;
     margin-top: 300px;
-    
+    background-color:rgb(243, 104, 164);
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px  #00d2c6,
+                -3px -3px 30px  #00ffff;
 }
 h2{
     font-size: 20px;
     /* padding-bottom: 10px; */
+    color: white;
+
 }
 input{
     height: 25px;
     width: 240px;
+    border-radius: 5px;
 }
 button{
     height: 25px;
     width: 100px;
-    background-color: blue;
+    border-radius: 5px;
+    background-color: rgb(42, 128, 199);
     color: white;
     border: none;
     margin-left: 30px;
